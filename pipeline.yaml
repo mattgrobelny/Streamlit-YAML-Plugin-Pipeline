@@ -1,0 +1,10 @@
+pipeline:
+  - step: load_data
+    config: {}
+
+  - step: filter_rows
+    config:
+      min_age: 30
+
+  - step: summarize
+    config: {}
